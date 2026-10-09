@@ -23,7 +23,7 @@ Aplicação de portfólio em monorepo com frontend React + Vite e backend Spring
 - i18next / react-i18next
 
 ### Back-end
-- Java 21
+- Java 25
 - Spring Boot (Web, Data JPA, Validation)
 - H2 em memória
 
@@ -41,7 +41,7 @@ Render no plano gratuito pode ter partida a frio após inatividade; por isso o f
 ## Instalação e execução
 ### Pré-requisitos
 - Node.js LTS
-- Java 21
+- Java 25
 - Maven 3.9+
 
 ### Front-end
