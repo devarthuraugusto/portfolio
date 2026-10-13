@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "about": "Sobre Mim",
+    "projects": "Projetos",
+    "experiences": "Experiências",
+    "contact": "Contato",
+    "languageToggle": "PT/EN"
+  },
+  "common": {
+    "wakingServer": "Carregando dados e acordando o servidor...",
+    "apiFallback": "Não foi possível carregar a API agora. Exibindo dados de exemplo."
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "summary": "Sou estudante de tecnologia focado em desenvolvimento full stack com Java, Spring e React.",
+    "highlightsTitle": "Destaques",
+    "highlight1": "Construção de APIs REST com boas práticas de arquitetura.",
+    "highlight2": "Interfaces acessíveis e responsivas com React e Mantine.",
+    "highlight3": "Comunicação clara de escolhas de design e trade-offs técnicos."
+  },
+  "projects": {
+    "title": "Projetos",
+    "viewRepository": "Ver no GitHub"
+  },
+  "experiences": {
+    "title": "Experiências"
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Envie uma mensagem pelo formulário ou pelos links rápidos.",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "send": "Enviar"
+    },
+    "validation": {
+      "nameRequired": "Informe seu nome.",
+      "emailInvalid": "Informe um e-mail válido.",
+      "messageMinLength": "A mensagem deve ter pelo menos 10 caracteres."
+    },
+    "successTitle": "Mensagem enviada",
+    "successMessage": "Recebi sua mensagem e retornarei em breve.",
+    "errorTitle": "Falha ao enviar",
+    "errorMessage": "Não foi possível enviar no momento. Tente novamente."
+  }
+}

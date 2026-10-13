@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experiences": "Experiences",
+    "contact": "Contact",
+    "languageToggle": "PT/EN"
+  },
+  "common": {
+    "wakingServer": "Loading data and waking the server...",
+    "apiFallback": "API is unavailable right now. Showing sample data."
+  },
+  "about": {
+    "title": "About Me",
+    "summary": "I am a technology student focused on full stack development with Java, Spring, and React.",
+    "highlightsTitle": "Highlights",
+    "highlight1": "Building REST APIs with clean architecture practices.",
+    "highlight2": "Creating responsive and accessible interfaces with React and Mantine.",
+    "highlight3": "Explaining design choices and technical trade-offs clearly."
+  },
+  "projects": {
+    "title": "Projects",
+    "viewRepository": "Open on GitHub"
+  },
+  "experiences": {
+    "title": "Experiences"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Send a message through the form or quick links.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    },
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "emailInvalid": "Please enter a valid email.",
+      "messageMinLength": "Message must be at least 10 characters long."
+    },
+    "successTitle": "Message sent",
+    "successMessage": "Your message was sent successfully.",
+    "errorTitle": "Send failed",
+    "errorMessage": "Could not send your message now. Please try again."
+  }
+}
