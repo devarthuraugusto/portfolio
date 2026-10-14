@@ -1,7 +1,7 @@
 {
   "marcaInicio": "dev",
   "marcaDestaque": "ArthurAugusto",
-  "urlFoto": "public/fotoArthur.jpg",
+  "urlFoto": "public/logos/fotoArthur.jpg",
   "area": { "pt": "Engenharia de Software", "en": "Software Engineering" },
   "cargo": {
     "pt": "Desenvolvedor Full Stack em formação",
