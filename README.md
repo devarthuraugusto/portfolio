@@ -23,7 +23,7 @@ Aplicação de portfólio em monorepo com frontend React + Vite e backend Spring
 - i18next / react-i18next
 
 ### Back-end
-- Java 25
+- Java 21 (LTS)
 - Spring Boot (Web, Data JPA, Validation)
 - H2 em memória
 
@@ -41,7 +41,7 @@ Render no plano gratuito pode ter partida a frio após inatividade; por isso o f
 ## Instalação e execução
 ### Pré-requisitos
 - Node.js LTS
-- Java 25
+- Java 21
 - Maven 3.9+
 
 ### Front-end
@@ -75,7 +75,7 @@ mvn spring-boot:run
 
 ## Deploy
 - Front-end: Vercel (Root Directory: `frontend`), com `frontend/vercel.json`.
-- Back-end: Render (Docker, Root Directory: `backend`, Health Check: `/api/health`).
+- Back-end: Render (Docker, Root Directory: `backend`, Health Check: `/api/health`). O arquivo `render.yaml` também permite criar o serviço automaticamente pelo Blueprint.
 
 ## Estrutura de pastas
 ```text
