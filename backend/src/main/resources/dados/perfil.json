@@ -1,0 +1,53 @@
+{
+  "marcaInicio": "dev",
+  "marcaDestaque": "ArthurAugusto",
+  "urlFoto": "public/fotoArthur.jpg",
+  "area": { "pt": "Engenharia de Software", "en": "Software Engineering" },
+  "cargo": {
+    "pt": "Desenvolvedor Full Stack em formação",
+    "en": "Full Stack Developer in training"
+  },
+  "apresentacao": {
+    "pt": [
+      "Sou estudante de Engenharia de Software na PUC Minas, em busca de transformar ideias em produtos digitais simples e acessíveis.",
+      "Atuo com desenvolvimento full stack usando Java, Spring Boot e React, e me interesso por arquitetura de software, APIs e experiência do usuário.",
+      "Meu objetivo é crescer como engenheiro de software, contribuindo em times que valorizem qualidade, colaboração, comunicação e aprendizado contínuo.",
+      "Sou um jovem enérgico, que gosta de aprender e gerar resultados, sou torcedor do Atlético Mineiro e do Oklahoma City Thunder, e gosto muuito de música."
+    ],
+    "en": [
+      "I am a Software Engineering student at PUC Minas, looking to turn ideas into simple and accessible digital products.",
+      "I work with full stack development using Java, Spring Boot and React, and I am interested in software architecture, APIs and user experience.",
+      "My goal is to grow as a software engineer, contributing to teams that value quality, communication,collaboration and continuous learning.",
+      "I am an energetic young man, who likes to learn and generate results, I am a fan of Atlético Mineiro and Oklahoma City Thunder, and I really like music."
+    ]
+  },
+  "destaques": [
+    {
+      "chave": "formacao",
+      "principal": { "pt": "Engenharia de Software", "en": "Software Engineering" },
+      "complemento": { "pt": "PUC Minas · 2º período", "en": "PUC Minas · 2nd semester" }
+    },
+    {
+      "chave": "areaAtuacao",
+      "principal": { "pt": "Desenvolvimento Full Stack", "en": "Full Stack Development" },
+      "complemento": { "pt": "Back-end Java e front-end React", "en": "Java back-end and React front-end" }
+    },
+    {
+      "chave": "interesses",
+      "principal": { "pt": "APIs e arquitetura", "en": "APIs and architecture" },
+      "complemento": { "pt": "UX, acessibilidade, código aberto", "en": "UX, accessibility, open source" }
+    },
+    {
+      "chave": "objetivos",
+      "principal": { "pt": "Atuar como engenheiro de software", "en": "Work as a software engineer" },
+      "complemento": { "pt": "Aprender e entregar valor em equipe", "en": "Learn and deliver value as a team" }
+    }
+  ],
+  "habilidades": ["Java", "Python", "Spring Boot", "React", "JavaScript", "HTML", "CSS", "SQL", "Git", "REST", "Mantine"],
+  "canais": [
+    { "tipo": "email", "rotulo": "E-mail", "valor": "devarthuraugusto@gmail.com", "link": "mailto:devarthuraugusto@gmail.com" },
+    { "tipo": "whatsapp", "rotulo": "WhatsApp", "valor": "+55 (31) 99952-9080", "link": "https://wa.me/5531999529080" },
+    { "tipo": "linkedin", "rotulo": "LinkedIn", "valor": "linkedin.com/in/devarthuraugusto", "link": "https://www.linkedin.com/in/devarthuraugusto" },
+    { "tipo": "github", "rotulo": "GitHub", "valor": "github.com/devarthuraugusto", "link": "https://github.com/devarthuraugusto" }
+  ]
+}

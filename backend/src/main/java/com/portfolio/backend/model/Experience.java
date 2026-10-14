@@ -23,13 +23,22 @@ public class Experience {
     @Column(nullable = false)
     private String role;
 
+    @Column(name = "role_en", nullable = false)
+    private String roleEn;
+
     @Column(nullable = false)
     private LocalDate startDate;
 
     private LocalDate endDate;
 
+    @Column(name = "logo_index", nullable = false)
+    private Integer logoIndex;
+
     @Column(nullable = false, length = 2000)
     private String description;
+
+    @Column(name = "description_en", nullable = false, length = 2000)
+    private String descriptionEn;
 
     public Long getId() {
         return id;
@@ -43,6 +52,10 @@ public class Experience {
         return role;
     }
 
+    public String getRoleEn() {
+        return roleEn;
+    }
+
     public LocalDate getStartDate() {
         return startDate;
     }
@@ -51,7 +64,15 @@ public class Experience {
         return endDate;
     }
 
+    public Integer getLogoIndex() {
+        return logoIndex;
+    }
+
     public String getDescription() {
         return description;
+    }
+
+    public String getDescriptionEn() {
+        return descriptionEn;
     }
 }

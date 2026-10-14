@@ -20,8 +20,14 @@ public class Project {
     @Column(nullable = false)
     private String name;
 
+    @Column(name = "name_en", nullable = false)
+    private String nameEn;
+
     @Column(nullable = false, length = 2000)
     private String description;
+
+    @Column(name = "description_en", nullable = false, length = 2000)
+    private String descriptionEn;
 
     @Column(nullable = false)
     private String technologies;
@@ -43,8 +49,16 @@ public class Project {
         return name;
     }
 
+    public String getNameEn() {
+        return nameEn;
+    }
+
     public String getDescription() {
         return description;
+    }
+
+    public String getDescriptionEn() {
+        return descriptionEn;
     }
 
     public String getTechnologies() {
