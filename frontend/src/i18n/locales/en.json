@@ -1,47 +1,105 @@
 {
-  "nav": {
-    "about": "About",
-    "projects": "Projects",
-    "experiences": "Experiences",
-    "contact": "Contact",
-    "languageToggle": "PT/EN"
+  "navegacao": {
+    "principal": "Main navigation",
+    "sobre": "About me",
+    "projetos": "Projects",
+    "experiencias": "Experience",
+    "contato": "Contact",
+    "alternarTema": "Switch between light and dark theme",
+    "alternarIdioma": "Switch language between Portuguese and English",
+    "menu": "Open or close the menu"
   },
-  "common": {
-    "wakingServer": "Loading data and waking the server...",
-    "apiFallback": "API is unavailable right now. Showing sample data."
+  "comum": {
+    "tituloDocumento": "devArthur · Portfolio",
+    "carregando": "Loading content and waking up the server...",
+    "falhaApi": "Could not load the data right now.",
+    "tentarNovamente": "Try again"
   },
-  "about": {
-    "title": "About Me",
-    "summary": "I am a technology student focused on full stack development with Java, Spring, and React.",
-    "highlightsTitle": "Highlights",
-    "highlight1": "Building REST APIs with clean architecture practices.",
-    "highlight2": "Creating responsive and accessible interfaces with React and Mantine.",
-    "highlight3": "Explaining design choices and technical trade-offs clearly."
+  "rodape": {
+    "navegacao": "Footer navigation",
+    "sobre": "About",
+    "projetos": "Projects",
+    "experiencias": "Experience",
+    "contato": "Contact",
+    "direitos": "© {{ano}} {{marca}}. All rights reserved."
   },
-  "projects": {
-    "title": "Projects",
-    "viewRepository": "Open on GitHub"
-  },
-  "experiences": {
-    "title": "Experiences"
-  },
-  "contact": {
-    "title": "Contact",
-    "description": "Send a message through the form or quick links.",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "send": "Send"
+  "sobre": {
+    "verProjetos": "See projects",
+    "falarComigo": "Talk to me",
+    "textoAlternativoFoto": "Profile picture",
+    "secaoApresentacao": "01 · Introduction",
+    "titulo": "About me",
+    "legenda": "Text available in Portuguese and English — switch with the PT | EN selector in the header.",
+    "cartaoPortugues": "Português",
+    "cartaoIngles": "English",
+    "siglaPortugues": "PT",
+    "siglaIngles": "EN",
+    "destaques": {
+      "formacao": "Education",
+      "areaAtuacao": "Field of work",
+      "interesses": "Interests",
+      "objetivos": "Goals"
     },
-    "validation": {
-      "nameRequired": "Please enter your name.",
-      "emailInvalid": "Please enter a valid email.",
-      "messageMinLength": "Message must be at least 10 characters long."
+    "secaoStack": "02 · Stack",
+    "habilidades": "Skills",
+    "chamada": "See what I have built",
+    "irParaProjetos": "Go to projects"
+  },
+  "projetos": {
+    "sobretitulo": "Timeline",
+    "titulo": "Projects",
+    "descricao": "From oldest to newest. Each card shows the description, technologies, repository and the running project.",
+    "ordenacao": "Project order",
+    "maisAntigo": "Oldest",
+    "maisRecente": "Newest",
+    "rotuloProjeto": "Project",
+    "seloMaisRecente": "Newest",
+    "tecnologias": "Technologies",
+    "verNoGithub": "View on GitHub",
+    "textoAlternativoImagem": "{{nome}} project running"
+  },
+  "experiencias": {
+    "sobretitulo": "Journey",
+    "titulo": "Experience",
+    "descricao": "Professional experience, internships, freelance work, open source projects and tech events.",
+    "filtrarPorTipo": "Filter experience by type",
+    "atual": "Present",
+    "nenhumaEncontrada": "No experience of this type yet.",
+    "textoAlternativoLogo": "{{instituicao}} logo",
+    "filtros": {
+      "TODAS": "All",
+      "PROFISSIONAL": "Professional",
+      "ESTAGIO": "Internship",
+      "FREELA": "Freelance",
+      "OPEN_SOURCE": "Open source",
+      "EVENTO": "Events"
+    }
+  },
+  "contato": {
+    "sobretitulo": "Let us talk",
+    "titulo": "Contact",
+    "descricao": "Pick a direct channel or send a message through the form.",
+    "canaisDiretos": "Direct channels",
+    "formulario": {
+      "titulo": "Send message",
+      "selo": "Reply by e-mail",
+      "nome": "Name",
+      "email": "E-mail",
+      "mensagem": "Message",
+      "placeholderNome": "Your full name",
+      "placeholderEmail": "you@email.com",
+      "placeholderMensagem": "Write your message",
+      "enviar": "Send message",
+      "enviando": "Sending..."
     },
-    "successTitle": "Message sent",
-    "successMessage": "Your message was sent successfully.",
-    "errorTitle": "Send failed",
-    "errorMessage": "Could not send your message now. Please try again."
+    "validacao": {
+      "nomeObrigatorio": "Please enter your name.",
+      "emailInvalido": "Please enter a valid e-mail.",
+      "mensagemCurta": "The message must be at least 10 characters long."
+    },
+    "retorno": {
+      "sucesso": "Message sent! I will reply by e-mail soon.",
+      "falha": "Could not send right now. Please try again shortly."
+    }
   }
 }

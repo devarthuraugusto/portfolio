@@ -1,47 +1,105 @@
 {
-  "nav": {
-    "about": "Sobre Mim",
-    "projects": "Projetos",
-    "experiences": "Experiências",
-    "contact": "Contato",
-    "languageToggle": "PT/EN"
+  "navegacao": {
+    "principal": "Navegação principal",
+    "sobre": "Sobre mim",
+    "projetos": "Projetos",
+    "experiencias": "Experiências",
+    "contato": "Contato",
+    "alternarTema": "Alternar entre tema claro e escuro",
+    "alternarIdioma": "Alternar idioma entre português e inglês",
+    "menu": "Abrir ou fechar o menu"
   },
-  "common": {
-    "wakingServer": "Carregando dados e acordando o servidor...",
-    "apiFallback": "Não foi possível carregar a API agora. Exibindo dados de exemplo."
+  "comum": {
+    "tituloDocumento": "devArthur · Portfólio",
+    "carregando": "Carregando conteúdo e acordando o servidor...",
+    "falhaApi": "Não foi possível carregar os dados agora.",
+    "tentarNovamente": "Tentar novamente"
   },
-  "about": {
-    "title": "Sobre Mim",
-    "summary": "Sou estudante de tecnologia focado em desenvolvimento full stack com Java, Spring e React.",
-    "highlightsTitle": "Destaques",
-    "highlight1": "Construção de APIs REST com boas práticas de arquitetura.",
-    "highlight2": "Interfaces acessíveis e responsivas com React e Mantine.",
-    "highlight3": "Comunicação clara de escolhas de design e trade-offs técnicos."
+  "rodape": {
+    "navegacao": "Navegação do rodapé",
+    "sobre": "Sobre",
+    "projetos": "Projetos",
+    "experiencias": "Experiências",
+    "contato": "Contato",
+    "direitos": "© {{ano}} {{marca}}. Todos os direitos reservados."
   },
-  "projects": {
-    "title": "Projetos",
-    "viewRepository": "Ver no GitHub"
+  "sobre": {
+    "verProjetos": "Ver projetos",
+    "falarComigo": "Falar comigo",
+    "textoAlternativoFoto": "Foto de perfil",
+    "secaoApresentacao": "01 · Apresentação",
+    "titulo": "Sobre mim",
+    "legenda": "Texto disponível em português e inglês — troque pelo seletor PT | EN no cabeçalho.",
+    "cartaoPortugues": "Português",
+    "cartaoIngles": "English",
+    "siglaPortugues": "PT",
+    "siglaIngles": "EN",
+    "destaques": {
+      "formacao": "Formação",
+      "areaAtuacao": "Área de atuação",
+      "interesses": "Interesses",
+      "objetivos": "Objetivos"
+    },
+    "secaoStack": "02 · Stack",
+    "habilidades": "Habilidades",
+    "chamada": "Veja o que já construí",
+    "irParaProjetos": "Ir para projetos"
   },
-  "experiences": {
-    "title": "Experiências"
+  "projetos": {
+    "sobretitulo": "Linha do tempo",
+    "titulo": "Projetos",
+    "descricao": "Do mais antigo ao mais recente. Cada card traz descrição, tecnologias, repositório e o projeto em funcionamento.",
+    "ordenacao": "Ordem dos projetos",
+    "maisAntigo": "Mais antigo",
+    "maisRecente": "Mais recente",
+    "rotuloProjeto": "Projeto",
+    "seloMaisRecente": "Mais recente",
+    "tecnologias": "Tecnologias",
+    "verNoGithub": "Ver no GitHub",
+    "textoAlternativoImagem": "Projeto {{nome}} em funcionamento"
   },
-  "contact": {
-    "title": "Contato",
-    "description": "Envie uma mensagem pelo formulário ou pelos links rápidos.",
-    "form": {
-      "name": "Nome",
+  "experiencias": {
+    "sobretitulo": "Trajetória",
+    "titulo": "Experiências",
+    "descricao": "Experiências profissionais, estágios, freelas, projetos open source e eventos técnicos.",
+    "filtrarPorTipo": "Filtrar experiências por tipo",
+    "atual": "Atual",
+    "nenhumaEncontrada": "Nenhuma experiência neste tipo ainda.",
+    "textoAlternativoLogo": "Logo de {{instituicao}}",
+    "filtros": {
+      "TODAS": "Todas",
+      "PROFISSIONAL": "Profissional",
+      "ESTAGIO": "Estágio",
+      "FREELA": "Freelas",
+      "OPEN_SOURCE": "Open source",
+      "EVENTO": "Eventos"
+    }
+  },
+  "contato": {
+    "sobretitulo": "Vamos conversar",
+    "titulo": "Contato",
+    "descricao": "Escolha um canal direto ou envie uma mensagem pelo formulário.",
+    "canaisDiretos": "Canais diretos",
+    "formulario": {
+      "titulo": "Enviar mensagem",
+      "selo": "Resposta por e-mail",
+      "nome": "Nome",
       "email": "E-mail",
-      "message": "Mensagem",
-      "send": "Enviar"
+      "mensagem": "Mensagem",
+      "placeholderNome": "Seu nome completo",
+      "placeholderEmail": "seu@email.com",
+      "placeholderMensagem": "Escreva sua mensagem",
+      "enviar": "Enviar mensagem",
+      "enviando": "Enviando..."
     },
-    "validation": {
-      "nameRequired": "Informe seu nome.",
-      "emailInvalid": "Informe um e-mail válido.",
-      "messageMinLength": "A mensagem deve ter pelo menos 10 caracteres."
+    "validacao": {
+      "nomeObrigatorio": "Informe seu nome.",
+      "emailInvalido": "Informe um e-mail válido.",
+      "mensagemCurta": "A mensagem precisa ter pelo menos 10 caracteres."
     },
-    "successTitle": "Mensagem enviada",
-    "successMessage": "Recebi sua mensagem e retornarei em breve.",
-    "errorTitle": "Falha ao enviar",
-    "errorMessage": "Não foi possível enviar no momento. Tente novamente."
+    "retorno": {
+      "sucesso": "Mensagem enviada! Respondo por e-mail em breve.",
+      "falha": "Não foi possível enviar agora. Tente novamente em instantes."
+    }
   }
 }

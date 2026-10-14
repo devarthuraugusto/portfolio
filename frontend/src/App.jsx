@@ -1,21 +1,24 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import AppLayout from './components/AppLayout'
-import AboutPage from './pages/AboutPage'
-import ProjectsPage from './pages/ProjectsPage'
-import ExperiencesPage from './pages/ExperiencesPage'
-import ContactPage from './pages/ContactPage'
+import { ProvedorPerfil } from './contexto/ContextoPerfil'
+import LayoutPrincipal from './componentes/LayoutPrincipal'
+import PaginaSobre from './paginas/PaginaSobre'
+import PaginaProjetos from './paginas/PaginaProjetos'
+import PaginaExperiencias from './paginas/PaginaExperiencias'
+import PaginaContato from './paginas/PaginaContato'
 
 function App() {
   return (
-    <AppLayout>
-      <Routes>
-        <Route path="/" element={<AboutPage />} />
-        <Route path="/projetos" element={<ProjectsPage />} />
-        <Route path="/experiencias" element={<ExperiencesPage />} />
-        <Route path="/contato" element={<ContactPage />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </AppLayout>
+    <ProvedorPerfil>
+      <LayoutPrincipal>
+        <Routes>
+          <Route path="/" element={<PaginaSobre />} />
+          <Route path="/projetos" element={<PaginaProjetos />} />
+          <Route path="/experiencias" element={<PaginaExperiencias />} />
+          <Route path="/contato" element={<PaginaContato />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </LayoutPrincipal>
+    </ProvedorPerfil>
   )
 }
 
