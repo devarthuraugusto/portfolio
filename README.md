@@ -1,8 +1,8 @@
 # Portfólio Profissional (Spring Boot + React)
 
 ## Links úteis
-- Front-end (Vercel): _adicione aqui o link publicado_
-- Back-end (Render): _adicione aqui o link publicado_
+- Front-end (Vercel): devarthuraugusto.vercel.app
+- Back-end (Render): https://portfolio-devarthuraugusto.onrender.com/
 
 ## Sobre o projeto
 Aplicação de portfólio em monorepo com frontend React + Vite e backend Spring Boot. O objetivo é apresentar informações pessoais, projetos em timeline, experiências e contato com envio real de e-mail.
